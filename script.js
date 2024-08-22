@@ -61,24 +61,14 @@ function playRound(humanChoice, computerChoice){
 }
 
 
-function playGame(){
 
-    for(let i = 0; i < 5; i++){
-
-        let humanChoice = getHumanChoice();
-        let computerChoice = getComputerChoice();
-
-        playRound(humanChoice, computerChoice);
-
-    }
-}
 
 let computerScore = 0;
 let humanScore = 0;
 
 
 
-playGame();
+
 
 
 
