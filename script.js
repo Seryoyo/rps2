@@ -68,9 +68,22 @@ let humanScore = 0;
 
 
 
+const rock = document.querySelector("#rock");
+const paper = document.querySelector("#paper");
+const scissors = document.querySelector("#scissors");
 
 
+rock.addEventListener("click", () => {
+    playRound("Rock", getComputerChoice());
+});
 
+paper.addEventListener("click", () => {
+    playRound("Paper", getComputerChoice());
+});
+
+scissors.addEventListener("click", () => {
+    playRound("Scissors", getComputerChoice());
+});
 
 
 
